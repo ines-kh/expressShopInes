@@ -10,7 +10,7 @@ test('ajout', () => {
 
 // T2
 test('total', () => {
-  expect(cart.getTotal()).toBe(9);
+  expect(cart.getTotal()).toBe(24.9);
 });
 
 // T3
