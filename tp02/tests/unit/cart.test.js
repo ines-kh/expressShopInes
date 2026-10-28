@@ -38,7 +38,7 @@ test('test 4', () => {
 
 // T5
 test('quantité aléatoire', () => {
-  const quantity = Math.floor(Math.random() * 2);
+  const quantity = Math.floor(Math.random() * 2) + 1;
   const c = new Cart();
   c.addItem({ id: 3, name: 'Câble HDMI', price: 10, quantity });
   expect(c.getTotal()).toBe(10 * quantity);
